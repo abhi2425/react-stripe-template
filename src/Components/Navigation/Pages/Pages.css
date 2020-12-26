@@ -1,0 +1,18 @@
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 50vw;
+}
+li {
+  margin: 2rem;
+}
+.navButton {
+  background: transparent;
+  font-size: 2rem;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  align-items: center;
+}

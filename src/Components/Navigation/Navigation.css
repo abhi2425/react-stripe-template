@@ -1,0 +1,24 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navigation div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
+.menuBtn {
+  border: none;
+  background: transparent;
+  font-size: 2.2rem;
+  color: beige;
+  cursor: pointer;
+  padding: 0.5rem 1.2rem;
+  background-color: black;
+  align-self: center;
+  border-radius: 0.5rem;
+  display: none;
+}

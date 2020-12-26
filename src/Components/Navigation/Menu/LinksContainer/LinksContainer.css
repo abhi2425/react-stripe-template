@@ -1,0 +1,11 @@
+.linkTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.subLink {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem 5rem;
+  justify-content: space-evenly;
+}

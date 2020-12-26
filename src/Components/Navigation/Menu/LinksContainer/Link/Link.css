@@ -1,0 +1,17 @@
+.link {
+  display: flex;
+  margin: 1rem 0;
+}
+.linkIcon {
+  font-size: 1.7rem;
+  color: rgb(46, 46, 105, 0.7);
+  margin-right: 1.5rem;
+  margin-top: 0.4rem;
+}
+.linkText {
+  font-size: 1.7rem;
+  color: rgba(38, 38, 99, 0.7);
+  text-transform: capitalize;
+  cursor: pointer;
+  text-decoration: none;
+}

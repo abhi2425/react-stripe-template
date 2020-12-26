@@ -1,0 +1,41 @@
+.overLay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  transform: scale(0);
+  transition: all 0.4s ease-in;
+}
+
+.modalContainer {
+  display: block;
+  width: 90vw;
+  height: 85vh;
+  background-color: whitesmoke;
+  position: relative;
+  transform: scale(0);
+  transition: all 0.4s ease-in;
+  visibility: hidden;
+}
+.displayModal {
+  z-index: 1000;
+  transform: scale(1);
+  visibility: visible;
+}
+.closeModal {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: red;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+}
