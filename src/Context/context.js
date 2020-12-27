@@ -10,9 +10,11 @@ export const FeaturesProvider = ({ children }) => {
   const displayModalHandler = () => {
     setShowModal(true);
   };
+
   const hideModalHandler = () => {
     setShowModal(false);
   };
+
   const displayMenuHandler = (page, location) => {
     setShowMenu(true);
     setPages([page]);
