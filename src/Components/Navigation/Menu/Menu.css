@@ -8,8 +8,8 @@
   transform: translateX(-500%);
   transition: all 0.3s linear;
 }
-.menu::before {
-  content: "";
+.tooltip {
+  content: '';
   display: block;
   width: 0;
   height: 0;

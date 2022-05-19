@@ -2,10 +2,9 @@ ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  width: 50vw;
 }
 li {
-  margin: 2rem;
+  padding: 2rem 4rem;
 }
 .navButton {
   background: transparent;

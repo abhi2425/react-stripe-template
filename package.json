@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel public/index.html --open",
+    "start": "parcel public/index.html",
     "build": "parcel public/index.html"
   },
   "keywords": [],

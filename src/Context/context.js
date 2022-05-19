@@ -1,29 +1,29 @@
-import React, { useContext, useState } from "react";
-export const AppContext = React.createContext();
+import React, { useContext, useState } from 'react'
+export const AppContext = React.createContext()
 
 export const FeaturesProvider = ({ children }) => {
-  const [Pages, setPages] = useState([]);
-  const [showModal, setShowModal] = useState(false);
-  const [showMenu, setShowMenu] = useState(false);
-  const [location, setLocation] = useState({});
+  const [Pages, setPages] = useState([])
+  const [showModal, setShowModal] = useState(false)
+  const [showMenu, setShowMenu] = useState(false)
+  const [location, setLocation] = useState({})
 
   const displayModalHandler = () => {
-    setShowModal(true);
-  };
+    setShowModal(true)
+  }
 
   const hideModalHandler = () => {
-    setShowModal(false);
-  };
+    setShowModal(false)
+  }
 
   const displayMenuHandler = (page, location) => {
-    setShowMenu(true);
-    setPages([page]);
-    setLocation(location);
-  };
+    setShowMenu(true)
+    setPages([page])
+    setLocation(location)
+  }
 
   const hideMenuHandler = () => {
-    setShowMenu(false);
-  };
+    setShowMenu(false)
+  }
   return (
     <AppContext.Provider
       value={{
@@ -35,11 +35,10 @@ export const FeaturesProvider = ({ children }) => {
         hideMenuHandler,
         displayModalHandler,
         hideModalHandler,
-      }}
-    >
+      }}>
       {children}
     </AppContext.Provider>
-  );
-};
+  )
+}
 
-export const useGlobalContext = () => useContext(AppContext);
+export const useGlobalContext = () => useContext(AppContext)
