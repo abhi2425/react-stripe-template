@@ -2,10 +2,10 @@
   "name": "react-stripe",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel public/index.html --open"
+    "start": "parcel public/index.html --open",
+    "build": "parcel public/index.html"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,6 @@
     "react-icons": "^4.1.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.0.0"
   }
 }
